@@ -41,34 +41,5 @@ e=c==d
 print (e)
 
 
-class Newclass:
-	def display(self,text):
-		print (text)
 
-aa=Newclass()
-aa.display('python textbook')
-
-Newclass.display(aa,'Python Textbook')
-
-
-class Supclass1:
-	def setname(self,name):
-		self.name=name
-	def method(self):
-		print ('ABC')
-
-
-a=Supclass1()
-a.method()
-
-
-class Subclass1(Supclass1):
-	print ('subclass1 begins')
-	def display(self):
-		print (self.name)	
-	print ('subclass1 end')
-
-b=Subclass1()
-b.setname('PHP')
-b.display()
 
