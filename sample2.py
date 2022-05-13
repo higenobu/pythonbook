@@ -1,2 +1,2 @@
-from second import sample1
+import sample1
 sample1.displayname('Python')
