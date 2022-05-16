@@ -3,7 +3,7 @@ class Suji:
 		self.data=start
 	def __sub__(self,other):
 		return(self.data-other)
-	def __add__(self,other)
+	def __add__(self,other):
 		return(self.data+other)
 
 
